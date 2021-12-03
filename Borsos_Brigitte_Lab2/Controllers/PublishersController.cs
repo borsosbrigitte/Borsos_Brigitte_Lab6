@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Borsos_Brigitte_Lab2.Data;
-using Borsos_Brigitte_Lab2.Models;
-using Borsos_Brigitte_Lab2.Models.LibraryViewModels;
+using LibraryModel.Data;
+using LibraryModel.Models;
+using LibraryModel.Models.LibraryViewModels;
 
 namespace Borsos_Brigitte_Lab2.Controllers
 {

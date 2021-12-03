@@ -1,4 +1,4 @@
-﻿using Borsos_Brigitte_Lab2.Models;
+﻿using LibraryModel.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,8 +7,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Borsos_Brigitte_Lab2.Data;
-using Borsos_Brigitte_Lab2.Models.LibraryViewModels;
+using LibraryModel.Data;
+using LibraryModel.Models.LibraryViewModels;
 namespace Borsos_Brigitte_Lab2.Controllers
 {
     public class HomeController : Controller

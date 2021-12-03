@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Borsos_Brigitte_Lab2.Models;
+using LibraryModel.Models;
 
-namespace Borsos_Brigitte_Lab2.Data
+namespace LibraryModel.Data
 {
     public class LibraryContext : DbContext
     {

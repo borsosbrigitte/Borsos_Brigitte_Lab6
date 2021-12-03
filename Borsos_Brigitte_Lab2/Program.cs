@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using Borsos_Brigitte_Lab2.Data;
+using LibraryModel.Data;
 
 namespace Borsos_Brigitte_Lab2
 {

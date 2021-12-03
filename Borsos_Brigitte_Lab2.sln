@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borsos_Brigitte_Lab2", "Borsos_Brigitte_Lab2\Borsos_Brigitte_Lab2.csproj", "{19B07482-0B8C-4028-897F-7C86A2746812}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Borsos_Brigitte_Lab2", "Borsos_Brigitte_Lab2\Borsos_Brigitte_Lab2.csproj", "{19B07482-0B8C-4028-897F-7C86A2746812}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryModel", "LibraryModel\LibraryModel.csproj", "{05E4A4A5-63FD-407B-8868-F2D13B327903}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryWebAPI", "LibraryWebAPI\LibraryWebAPI.csproj", "{8130A487-D175-44D9-AFFC-55F2B5847E0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{19B07482-0B8C-4028-897F-7C86A2746812}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19B07482-0B8C-4028-897F-7C86A2746812}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19B07482-0B8C-4028-897F-7C86A2746812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E4A4A5-63FD-407B-8868-F2D13B327903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E4A4A5-63FD-407B-8868-F2D13B327903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E4A4A5-63FD-407B-8868-F2D13B327903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E4A4A5-63FD-407B-8868-F2D13B327903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8130A487-D175-44D9-AFFC-55F2B5847E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8130A487-D175-44D9-AFFC-55F2B5847E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8130A487-D175-44D9-AFFC-55F2B5847E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8130A487-D175-44D9-AFFC-55F2B5847E0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

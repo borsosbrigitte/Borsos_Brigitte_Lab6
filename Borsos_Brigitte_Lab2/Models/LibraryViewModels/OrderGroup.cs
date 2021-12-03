@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Borsos_Brigitte_Lab2.Models.LibraryViewModels
+namespace LibraryModel.Models.LibraryViewModels
 {
     public class OrderGroup
     {
