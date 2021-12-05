@@ -10,8 +10,12 @@ using LibraryModel.Models;
 using System.Net.Http;
 using System.Text;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Authorization;
+
 namespace Borsos_Brigitte_Lab2.Controllers
 {
+
+    [Authorize(Policy = "SalesManager")]
     public class CustomersController : Controller
     {
         private readonly LibraryContext _context;
